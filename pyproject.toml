@@ -6,10 +6,8 @@ authors = [
     {name = "faraway3974",email = "174330666+faraway3974@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
-    "pygame-ce (>=2.5.7,<3.0.0)",
-    "minecraft-remote-api (>=1214.10.13,<1215.0.0)"
 ]
 
 
