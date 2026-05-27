@@ -1,7 +1,7 @@
 from mc_remote.minecraft import Minecraft
 from param_mc_remote import block
 
-class CreateBox:
+class createBox:
     def __init__(self, sx=10, sy=63, sz=10, lx=3, ly=3, lz=3, block=block.DIAMOND_BLOCK):
         self.sx = sx
         self.sy = sy
@@ -11,6 +11,15 @@ class CreateBox:
         self.lz = lz
         self.block = block
 
-    def create_box(self, mc):
+    def createBox(self, mc):
+        x = 0
+        y = 0
+        z = 0
         mc.postToChat("Hello, World! This API can create boxes!")
-        mc.setBlocks(self.sx, self.sy, self.sz, self.sx + self.lx -1, self.sy + self.ly -1, self.sz + self.lz -1, self.block)
+        for x in range(self.lx):
+            for y in range(self.ly):
+                for z in range(self.lz):
+                    mc.setBlock(self.sx + x, self.sy + y, self.sz + z, self.block)
+                    z += 1
+                y += 1
+            x += 1
