@@ -1,7 +1,7 @@
 from mc_remote.minecraft import Minecraft
 from param_mc_remote import block
 
-class createBox:
+class create_box:
     def __init__(self, sx=10, sy=63, sz=10, lx=3, ly=3, lz=3, block=block.DIAMOND_BLOCK):
         self.sx = sx
         self.sy = sy
@@ -11,7 +11,7 @@ class createBox:
         self.lz = lz
         self.block = block
 
-    def createBox(self, mc):
+    def create_box(self, mc):
         x = 0
         y = 0
         z = 0
