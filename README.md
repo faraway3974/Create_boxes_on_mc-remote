@@ -9,11 +9,11 @@
 
 # 使い方
 
-基本的に`main.py`を実行すればできます。
+`sample_code.py`で簡単に試すことができます。
 
 --
 
-```main.py
+```Python
 Box1 = create_box(10, 63, 10, 3, 3, 3, block.DIAMOND_BLOCK)
 Box1.create_box(mc)
 ```
