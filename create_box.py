@@ -20,6 +20,3 @@ class create_box:
             for y in range(self.ly):
                 for z in range(self.lz):
                     mc.setBlock(self.sx + x, self.sy + y, self.sz + z, self.block)
-                    z += 1
-                y += 1
-            x += 1
