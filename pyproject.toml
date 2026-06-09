@@ -8,6 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "minecraft-remote-api (>=1214.10.13,<1215.0.0)"
 ]
 
 
