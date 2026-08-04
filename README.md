@@ -14,9 +14,10 @@
 --
 
 ```Python
-Box1 = create_box(10, 63, 10, 3, 3, 3, block.DIAMOND_BLOCK)
+Box1 = CreateBox(10, 63, 10, 3, 3, 3, block.DIAMOND_BLOCK)
 Box1.create_box(mc)
 ```
+
 (原点x, 原点y, 原点z, x方向の長さ, y方向の長さ, z方向の長さ, ブロックの種類)
 という順で数値を書き込むとそのとおりに箱が置かれます。
 
