@@ -11,7 +11,9 @@ dependencies = [
     "minecraft-remote-api (>=1214.10.13,<1215.0.0)"
 ]
 
-
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
